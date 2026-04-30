@@ -1,0 +1,47 @@
+[
+  {
+    "eircode": "D08 TK54",
+    "applianceType": "oven",
+    "brand": "Seattle",
+    "modelNumber": "123-456-7574",
+    "serialNumber": "1144-1387-2789",
+    "purchaseDate": "2026-03-21",
+    "warrantyExpirationDate": "2026-04-25"
+  },
+  {
+    "eircode": "D06 JX91",
+    "applianceType": "dishwasher",
+    "brand": "Cloud",
+    "modelNumber": "123-456-7891",
+    "serialNumber": "1234-1234-1234",
+    "purchaseDate": "2026-03-27",
+    "warrantyExpirationDate": "2026-04-11"
+  },
+  {
+    "eircode": "D00 0000",
+    "applianceType": "kettle",
+    "brand": "&lt;script&gt;alert(&#x27;hacked&#x27;)&lt;/script&gt;",
+    "modelNumber": "000-000-0000",
+    "serialNumber": "0000-0000-0000",
+    "purchaseDate": "2026-03-27",
+    "warrantyExpirationDate": "2026-03-28"
+  },
+  {
+    "eircode": "D00 0000",
+    "applianceType": "kettle",
+    "brand": "123",
+    "modelNumber": "123-123-1230",
+    "serialNumber": "1234-1234-1234",
+    "purchaseDate": "2026-03-27",
+    "warrantyExpirationDate": "2026-04-11"
+  },
+  {
+    "eircode": "D00 0000",
+    "applianceType": "kettle",
+    "brand": "123123",
+    "modelNumber": "123-123-1234",
+    "serialNumber": "1234-1234-1234",
+    "purchaseDate": "2026-04-18",
+    "warrantyExpirationDate": "2026-06-13"
+  }
+]
