@@ -71,7 +71,7 @@ export async function POST(req) {
             errors.warrantyExpirationDate = "Warranty date cannot be earlier than purchase date."
         }
         if (!costPattern.test(body.costOfAppliance)) {
-            errors.costOfAppliance = "Please enter a valid cost (e.g. 299.99)."
+            errors.costOfAppliance = "Please enter a valid cost (e.g. 300.00)."
         }
 
         // if any validation errors, return them with a 400 status
