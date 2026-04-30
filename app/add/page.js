@@ -171,7 +171,7 @@ export default function AddAppliance() {
                 <div className="mb-3">
                     <label className="form-label">Cost of Appliance (€)</label>
                     <input type="text" className="form-control" value={costOfAppliance}
-                        onChange={(e) => setCostOfAppliance(e.target.value)} placeholder="299.99" />
+                        onChange={(e) => setCostOfAppliance(e.target.value)} placeholder="300.00" />
                     {errors.costOfAppliance && <p className="text-danger mt-1">{errors.costOfAppliance}</p>}
                 </div>
 

@@ -74,8 +74,8 @@ export default function SearchAppliance() {
                                 <tr><td><strong>Brand</strong></td><td>{result.Brand}</td></tr>
                                 <tr><td><strong>Model</strong></td><td>{result.ModelNumber}</td></tr>
                                 <tr><td><strong>Serial</strong></td><td>{result.SerialNumber}</td></tr>
-                                <tr><td><strong>Purchase Date</strong></td><td>{result.PurchaseDate}</td></tr>
-                                <tr><td><strong>Warranty Expires</strong></td><td>{result.WarrantyExpirationDate}</td></tr>
+                                <tr><td><strong>Purchase Date</strong></td><td>{result.PurchaseDate?.split('T')[0]}</td></tr>
+                                <tr><td><strong>Warranty Expires</strong></td><td>{result.WarrantyExpirationDate?.split('T')[0]}</td></tr>
                                 <tr><td><strong>Cost</strong></td><td>€{result.CostOfAppliance}</td></tr>
                             </tbody>
                         </table>
